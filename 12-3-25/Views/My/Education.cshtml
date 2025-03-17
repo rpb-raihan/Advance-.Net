@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Education";
+    Layout = "~/Views/Shared/MyLayout.cshtml";
+}
+
+
+
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+<body>
+
+    <h2>Education</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Degre</th>
+            <th> Institute</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>SSC</td>
+            <td>MUBC</td>
+            <td>GPA 5.00</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>MUBC</td>
+            <td>GPA 5.00</td>
+        </tr>
+        <tr>
+            <td>Bsc</td>
+            <td>Aiub</td>
+            <td>CGPA 3.62</td>
+        </tr>
+    </table>
+
+    <a href="@Url.Action("Home", "My")">
+        <button>Go to Home</button>
+    </a>
+
+
+</body>
+
